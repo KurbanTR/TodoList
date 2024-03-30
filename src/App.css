@@ -1,0 +1,23 @@
+.App{
+  text-align: center;
+}
+ul{
+  list-style: none;
+}
+li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 10px;
+}
+.delete{
+  background: red;
+  color: white;
+  padding: 1px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input:checked + span{
+  text-decoration: line-through;
+}
